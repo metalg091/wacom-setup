@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rt=$(echo -e "none\ncw\nhalf\nccw" | rofi -dmenu --select | xargs -I{} echo {})
 
 id=$(xsetwacom list devices | grep "stylus" | tr -s " " | cut -f2 | cut -c5-)
