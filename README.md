@@ -4,7 +4,7 @@ This is a small script that helps you set up your wacom tablet easily
 Dependencies:
 
  - Rofi
- - xsetwacom
+ - xf86-input-wacom (xsetwacom)
 
 
 Polybar example:
